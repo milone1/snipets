@@ -1,0 +1,44 @@
+[
+    {
+        "Flutter Page": {
+            "prefix": "fl-page",
+            "body": [
+                "import 'package:flutter/material.dart';",
+                "",
+                "",
+                "class ${1:name}Screen extends StatelessWidget {",
+                "",
+                "  @override",
+                "  Widget build(BuildContext context) {",
+                "    return Scaffold(",
+                "      body: Center(",
+                "        child: Text('Hola Mundo'),",
+                "     ),",
+                "   );",
+                "  }",
+                "}"
+            ],
+            "description": "Crea una página de flutter fácilmente"
+        },
+        "Flutter Screen": {
+            "prefix": "fl-screen",
+            "body": [
+                "import 'package:flutter/material.dart';",
+                "",
+                "",
+                "class ${1:name}Screen extends StatelessWidget {",
+                "",
+                "  @override",
+                "  Widget build(BuildContext context) {",
+                "    return Scaffold(",
+                "      body: Center(",
+                "        child: Text('Hola Mundo'),",
+                "     ),",
+                "   );",
+                "  }",
+                "}"
+            ],
+            "description": "Crea una página/screen de flutter fácilmente"
+        }
+    }
+]
